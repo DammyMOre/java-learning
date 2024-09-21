@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class AverageOfEvenScore{
+
+	public static void main(String... args){
+	Scanner sc = new Scanner(System.in);
+	
+	int sum =0;
+	int count = 1;
+	int average = 0;
+	int counter = 0;
+
+	while(count <=10){
+		System.out.print("enter a score: ");
+		int score = sc.nextInt();
+	
+		if(score % 2 == 0){
+			sum += score;
+			counter++;	
+		
+		}	
+		count++;
+		
+	}
+		average = sum/counter;
+		System.out.printf("Average is: %d%n", average);
+}
+}
