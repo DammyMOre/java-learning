@@ -22,8 +22,7 @@ private LocalDate lastMenstrualFlow;
 private int menstrualCircleLength;
 private LocalDate flowDate;
 private int ovulationPeriod;
-
-//private int safePeriod;
+private LocalDate safePeriod;
 //private int fertileWindow;
 //private String nextMenstrualFlow;
 
@@ -68,6 +67,18 @@ flowDate = this.lastMenstrualFlow.plusDays(flowRange);
 public LocalDate getFlowDate(){
 return flowDate;
 }
+
+public void setSafePeriod(){
+
+safePeriod = this.flowDate.plusDays(3);
+}
+
+public LocalDate getSafePeriod(){
+return safePeriod;
+}
+
+
+
 
 /*
 public void setFertileWindow(int ovulationPeriod){
