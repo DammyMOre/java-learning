@@ -10,7 +10,7 @@ public static void main(String[] args){
 
 	try{
 
-		System.out.print("Enter your last flow startDate (YY-MM-DD): ");
+		System.out.println("Enter your last flow startDate (YY-MM-DD): ");
 		String startDate = scanner.nextLine();
 
 
@@ -19,12 +19,12 @@ public static void main(String[] args){
 		menstrualApp.lastStartDate(localDate);
 		menstrualApp.getStartDate();
 
-		System.out.print(menstrualApp.getStartDate());;
+		//System.out.print(menstrualApp.getStartDate());;
 		
 		}
 
 	catch(Exception e){
-		System.out.print("invalid input");	
+		System.out.println("invalid input");	
 
 	}
 
@@ -37,7 +37,7 @@ public static void main(String[] args){
 	menstrualApp.calculateMenstrualCircleLength(menstrualCircleLength);
 	menstrualApp.getMenstrualCircleLength();
 
-	System.out.println(menstrualApp.getMenstrualCircleLength());
+	//System.out.println(menstrualApp.getMenstrualCircleLength());
 	}
 
 	catch(Exception e){
@@ -58,13 +58,20 @@ public static void main(String[] args){
 	menstrualApp.setflowDate(flowRange);
 	menstrualApp.getFlowDate();
 
-	System.out.println("Your Flow days are:  " + menstrualApp.getStartDate() "-"  + menstrualApp.getFlowDate());
+	System.out.println("Your Flow days are:  " + menstrualApp.getStartDate() + " - "  + menstrualApp.getFlowDate());
 	}
 
 	catch(Exception e){
 		System.out.print("invalid input");	
 
 	}
+
+
+	menstrualApp.setSafePeriod();
+	menstrualApp.getSafePeriod();
+
+System.out.println("Your Safe days are:  "  + menstrualApp.getFlowDate() + "-" + menstrualApp.getSafePeriod());
+
 
 
 	/*
