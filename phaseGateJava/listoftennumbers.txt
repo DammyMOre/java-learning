@@ -1,0 +1,15 @@
+"""
+pseudo code
+create a list of 10 numbers
+count the length of the numbers
+check for the elements at even positions
+sum  all elements at even positions
+save in a variable sum
+check for all elements at odd positions
+sum them up and save in a variable sum_odd
+multiply all elements at every third positions
+sum all the elements together and save as total
+divide total by the number of the element length
+save as average
+display result
+"""

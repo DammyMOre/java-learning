@@ -1,0 +1,279 @@
+2.7
+a) indents
+b) if statement
+c) division(/) and modulus(%)
+d)expresions
+e)variable
+
+2.8
+a) System.out.print("Enter an integer");
+
+b) int b = input.nextInt();
+   int c = input.nextInt();
+   int a = b*c
+
+c) // performs a sample payroll calculation
+
+2.9
+a) true
+this is because of the parenthesis
+b) false
+c) false
+division has
+d)false
+
+2.10
+a) x = 5+5
+b) value of 5*1 is (5*1)
+c) x is 5 and y is 1
+d)(5+1) != (5*1)
+
+2.12
+a) correct java statement
+b) correct
+c) wrong
+d) correct
+e) wrong
+f) wrong
+
+2.13
+a) 5+2*4
+b) 5*2+4
+
+2.14)
+a) System.out.println("1 2 3 4")
+
+b)	System.out.print("1 ")
+	System.out.print(" 2 ")
+	System.out.print("  3 ")
+	System.out.print("  4")
+
+c) System.out.printf("%d ,%d ,%d ,%d ," 1234)
+
+2.15)
+impor java.util.Scanner
+public class Numbers{
+public static void main(String[] args){
+
+Scanner input = new Scanner(System.in)
+
+System.out.print("Enter a number: ");
+int numberOne = input.nextInt();
+
+
+System.out.print("Enter a number: ");
+int numberTwo = input.nextInt();
+
+int firstSqr = numberOne * numberOne
+int secondSqr = numberTwo * numberTwo
+
+System.out.print("firstSqr is %d : "  firstSqr);
+System.out.print("secondSqr is %d: " secondSqr);
+System.out.print("firstSqr + secondSqr: ");
+System.out.print("firstSqr - secondSqr: ");
+
+
+2.16
+
+impor java.util.Scanner
+public class Numbers{
+public static void main(String[] args){
+
+Scanner input = new Scanner(System.in)
+
+System.out.print("Enter a number: ");
+int number = input.nextInt();
+
+int Square = number * number;
+
+if(number and square > 100){
+System.out.print("number is greater ");
+}
+
+if(number and square == 100){
+System.out.print("number is equal");
+}
+
+if(number and square != 100){
+System.out.print("number is  not equal");
+}
+
+
+if(number and square <100){
+System.out.print("number is less");
+}
+
+
+2.17
+
+
+impor java.util.Scanner
+public class Numbers{
+public static void main(String[] args){
+
+Scanner input = new Scanner(System.in)
+
+System.out.print("Enter a number: ");
+int number1 = input.nextInt();
+
+System.out.print("Enter a number: ");
+int number2 = input.nextInt();
+
+System.out.print("Enter a number: ");
+int number3 = input.nextInt();
+
+int sum = number1 + number2 + number3
+System.out.println("sum is: %d" sum);
+
+int average = sum /3
+System.out.print("average is %d: " average);
+
+int product = number1 * number2 * number3
+System.out.println("product is: %d" product);
+
+if(number1< number2){
+System.out.print(
+}
+
+
+
+impor java.util.Scanner
+public class Numbers{
+public static void main(String[] args){
+
+Scanner input = new Scanner(System.in)
+
+System.out.print("Enter a number: ");
+String * = input.nextLine();
+
+System.out.print(": ");
+
+
+
+
+
+2.19
+
+****
+******
+*******
+******
+****
+
+2.20
+
+*
+***
+*****
+****
+**
+
+2.21
+
+*************
+**
+
+2.22
+
+*
+***
+*********
+**
+
+2.23
+
+*
+***
+*****
+*
+*
+*
+***
+
+2.25
+
+impor java.util.Scanner
+public class Numbers{
+public static void main(String[] args){
+
+Scanner input = new Scanner(System.in)
+
+System.out.print("Enter a number: ");
+int number = input.nextLine();
+
+if(number % 3 =0)
+System.out.print("divisible: ");
+
+
+}
+}
+
+
+public class Asterick{
+public static void main(String[] args){
+
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+
+
+System.out.print(" *")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+
+System.out.print(" *")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+
+
+System.out.print(" *")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+System.out.print("*")
+

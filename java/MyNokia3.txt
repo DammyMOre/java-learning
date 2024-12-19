@@ -1,0 +1,92 @@
+import java.util.Scanner;
+
+public class MyNokia3{
+	
+	public static void main(String... args){
+
+	String Menu = """
+	
+	PHONE MENU
+
+	1- Phone book
+
+	2- Messages
+
+	3- Chat
+	
+	4- Call register
+	
+	5- Tones 
+
+	6- Settings
+	
+	7- Call Divert
+
+	8- Games
+
+	9- Calculator 
+
+	10- Reminders
+
+	11- Clock
+
+	12- Profiles
+
+	13- SIM Servicess
+
+	
+
+	""";
+
+	System.out.print(Menu);
+
+	Scanner input = new Scanner(System.in);
+	
+	System.out.print("enter a number: ");
+	int enter = input.nextInt();
+
+	switch(enter) {	
+	case 1:System.out.println("phone book");break;
+	}	
+	
+	System.out.print("enter a number: ");
+	int response = input.nextInt();
+
+	switch(response){
+	case 1:System.out.println("Search");break;
+
+	case 2:System.out.println("Service Nos");break;
+
+	case 3:System.out.println("Add name");break;
+
+	case 4:System.out.println("Erase");break;
+
+	case 5:System.out.println("Edit");break;
+
+	case 6:System.out.println("Assign tone");break;
+
+	case 7:System.out.println("Send b'card");break;
+
+	case 8:System.out.println("Options");
+
+	
+	System.out.print("enter a number: ");
+	int options = input.nextInt();
+
+	switch(options){
+	case 1:System.out.println("Type of view");break;
+	case 2:System.out.println("Memory Status");break;
+	}
+
+	case 9:System.out.println("Speed dials"); break;
+	case 10:System.out.println("Voice tags"); break;
+	}	
+
+
+
+
+
+
+
+}
+}
