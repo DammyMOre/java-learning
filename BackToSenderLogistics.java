@@ -6,37 +6,33 @@ public static void main(String... args){
 Scanner scanner = new Scanner(System.in);
 System.out.print("Successful delivery ");
 int successfulDelivery = scanner.nextInt();
-return deliveryOne;
+System.out.print(deliveryOne(successfulDelivery));
 
 }
-
 public static double deliveryOne(int successfulDelivery){
- 
+ double ridersPayment = 0;
+
 if (successfulDelivery < 50){	
-int amount = (successfulDelivery * 160) + 5000;  
-int ridersPayment = amount;
-return amount;
-}
-else if (successfulDelivery>=50 && successfulDelivery <=59){	
-int amount = (successfulDelivery * 200) + 5000;  
-int ridersPayment = amount;
-return amount;
+ridersPayment= (successfulDelivery * 160) + 5000;  
 }
 
+else if (successfulDelivery>=50 && successfulDelivery <=59){	
+ridersPayment = (successfulDelivery * 200) + 5000;  
+
+}
 
 else if (successfulDelivery>=60 && successfulDelivery <=69){	
-int amount = (successfulDelivery * 250) + 5000;  
-int ridersPayment = amount;
-return amount;
+ridersPayment = (successfulDelivery * 250) + 5000;  
+
 }
 
 else if (successfulDelivery>=70){	
-int amount = (successfulDelivery * 500) + 5000;
-int ridersPayment = amount;
-return amount;
+ridersPayment= (successfulDelivery * 500) + 5000;
 }
+return ridersPayment;
 
 }
+
 }
 
 

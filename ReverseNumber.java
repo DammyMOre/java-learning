@@ -11,7 +11,7 @@ public class ReverseNumber{
 
 		System.out.print(getReverse(userInput));
 
-}		
+	}		
 
 
 public static int getReverse(int number){
