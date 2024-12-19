@@ -1,0 +1,14 @@
+We use selection statements to choose among alternative courses of action.
+if statement either performs (selects) an action, if a condition is true, or skips it, if the condition is false.
+
+while;
+
+A while iteration statement allows you to specify that a program should repeat an action while
+some condition remains true.
+
+similarities
+They both performs an action when the conditions are true.
+
+Differences
+1. The if single selection statement performs a single action, while the while iteration statement can perform repetitive
+actions.(i.e) it can iterate.

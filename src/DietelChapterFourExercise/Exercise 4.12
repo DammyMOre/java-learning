@@ -1,0 +1,6 @@
+Control statements can be combined through
+1. Control statement stacking:
+we simply connect the exit point of one single selection statement to the entry point of the next.
+
+2. Control statement Nesting: This is a process in which one control statement
+                              appears inside another.

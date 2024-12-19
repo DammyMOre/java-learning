@@ -1,0 +1,9 @@
+a. There is no ; at the back of an if statement
+There should be a brace in front of the else
+
+b. The initialization of x and total is not meant to be an equality operator(==),
+    rather, it should be an assignment operator (=)
+
+c. There is no opening and closing braces after the while statement
+
+d. y is not initialized, the opening braces is not well positioned, and and there is no closing braces
