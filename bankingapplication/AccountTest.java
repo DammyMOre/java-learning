@@ -1,12 +1,18 @@
 package bankingapplication;
 
+
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-
 public class AccountTest {
+    Account account;
+    @BeforeEach
+    public void setUp() {
+        account = new Account("Sera","1234","2024");
 
-    Account account = new Account("Sera","1234","2024");
+    }
 
     @Test
     public void test_that_when_user_enter_a_name_getName_returns_the_name() {
@@ -33,11 +39,19 @@ public class AccountTest {
     }
 
     @Test
-       public void test_that_user_can_withdraw(){
-
+       public void test_that_user_can_withdraw() {
+        account.deposit(10);
         account.withdraw(8, account.getPin());
-            assertEquals(2,account.getBalance());
-        }
+        assertEquals(2, account.getBalance());
+    }
+
+    @Test
+        public void test_that_user_can_transfer() {
+        account.deposit(10);
+        account.transfer("203001","203002",8, account.getPin());
+        assertEquals(2,account.getBalance());
+    }
+
 
     //    @Test
     //    public void test_that_User_cannot_deposit_a_negative_amount() {

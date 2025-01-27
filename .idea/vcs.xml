@@ -2,8 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/IdeaProjects/banking" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/IdeaProjects/basicTestLearning" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/IdeaProjects/maven" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JavaTasks/banking" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JavaTasks/basicTestLearning" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JavaTasks/maven" vcs="Git" />
   </component>
 </project>

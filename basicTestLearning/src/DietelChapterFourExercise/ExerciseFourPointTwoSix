@@ -1,0 +1,3 @@
+infinite loop
+when column is incrementing, it will cause an infinite loop, because it will always be true , but if the column is
+column--, it will decrement and loop only 5 times.

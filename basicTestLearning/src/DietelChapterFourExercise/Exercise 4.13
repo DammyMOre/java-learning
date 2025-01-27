@@ -1,0 +1,4 @@
+Sentinel controlled iteration
+
+it is performed by simply allowing the user to keep
+imputing a value until the user want, and stops the iteration using a sentinel value

@@ -59,6 +59,17 @@ import java.util.Scanner;
         }
 
         private static void transfer() {
+            try {
+                String number = input("Enter your Account number: ");
+                String recieversNumber = input("Enter reciever's Account number: ");
+                double amount = Double.parseDouble(input("Enter the amount to transfer: "));
+                String pin = input("Enter your pin: ");
+                String message = Bank.transfer(number,recieversNumber,amount,pin);
+                System.out.println(message);
+            }catch (AccountNotFoundException e){
+                System.out.println(e.getMessage());
+            }
+            menu();
         }
 
         public static void createAccount(){

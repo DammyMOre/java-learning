@@ -34,7 +34,6 @@ public class Bank {
 
     }
 
-
     public static String transfer(String sender, String receiver, double amount, String pin) throws AccountNotFoundException {
         Account senderAccount = accountExits(sender);
         Account receiverAccount = accountExits(receiver);
@@ -46,7 +45,7 @@ public class Bank {
         }
         senderAccount.withdraw(amount, pin);
         receiverAccount.deposit(amount);
-        return "Transfer of " + amount + " to " + receiverAccount + " successful..";
+        return "Transfer of " + amount + " to " + receiverAccount.getName() + " is successful..";
     }
 
     private static Account accountExits(String accountNumber) {
@@ -59,6 +58,7 @@ public class Bank {
     }
 
     public static String accountNumberGenerator(){
+//       CentralBank.getBankCode(String "bankName");
         String accountNumber = "200300";
         accountCounter++;
         return accountNumber+accountCounter;
@@ -73,7 +73,9 @@ public class Bank {
     }
 
 
-
-
-
 }
+
+
+//   private String nubanAccount(){
+//
+//}

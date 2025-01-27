@@ -9,7 +9,7 @@ public class Account {
     private String name;
     private double balance;
     private String pin;
-    public String accountNumber;
+    private String accountNumber;
 
     public Account(String name, String pin,String accountNumber ) {
         this.name = name;
@@ -26,8 +26,8 @@ public class Account {
         if(pin.length() != 4){
            throw new InvalidPinException("please enter a valid pin");
         } else {
-             String message = this.getPin();
-            System.out.println(message);
+            this.pin = pin;
+//            System.out.println(message);
         }
     }
     public  String getPin() {
@@ -36,6 +36,11 @@ public class Account {
     public boolean validatePin(String pin) {
         return this.pin.equals(pin);
     }
+
+//    public String accountNumber() {
+//        return accountNumber;
+//    }
+
     public void deposit(double amount) {
         this.balance += amount;
        if (amount <0) {
@@ -44,7 +49,7 @@ public class Account {
     }
 
     public void withdraw(double amount, String pin) {
-       if (amount < 0) {
+       if (amount > balance || amount < 0) {
            throw new InvalidWithdrawalException("Insufficient balance");
         }
        if(validatePin(pin)) {
@@ -63,4 +68,15 @@ public class Account {
     }
 
 
-}
+    public void transfer(String senderAccountNumber,String recipientAccountNumber,double amount, String pin) {
+
+        if (amount > balance || amount < 0) {
+            throw new InvalidWithdrawalException("Insufficient balance");
+        }
+        if(validatePin(pin)) {
+            this.balance -= amount;
+        }
+    }
+
+    }
+

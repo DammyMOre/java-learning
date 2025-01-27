@@ -1,0 +1,4 @@
+Dividing two integers results in integer division—any fractional
+part of the calculation is truncated (i.e., lost)
+
+This can be avoided by using a double
